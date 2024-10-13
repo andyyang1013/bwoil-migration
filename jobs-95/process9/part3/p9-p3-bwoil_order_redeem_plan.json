@@ -1,0 +1,11 @@
+{
+	"jobName": "p9-p3-bwoil_order_redeem_plan",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_order_redeem_plan",
+			"step": "bwoilOrderRedeemPlanMigrationStep",
+			"desc": "兑付计划"
+		}
+	]
+}

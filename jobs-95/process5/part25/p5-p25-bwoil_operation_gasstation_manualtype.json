@@ -1,0 +1,11 @@
+{
+	"jobName": "p5-p25-bwoil_operation_gasstation_manualtype",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_operation_gasstation_manualtype",
+			"step": "bwoilOperationGasstationManualtpyeMigrationStep",
+			"desc": "清结算类型"
+		}
+	]
+}

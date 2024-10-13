@@ -1,0 +1,46 @@
+{
+	"jobName": "会员迁移作业",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_member_bank",
+			"step": "bwoilMemberBankMigrationStep",
+			"desc": "银行账号"
+		},
+		{
+			"table": "bwoil_member_bind_tag",
+			"step": "bwoilMemberBindTagMigrationStep",
+			"desc": "第三方平台会员绑定"
+		},
+		{
+			"table": "bwoil_member_color",
+			"step": "bwoilMemberColorMigrationStep",
+			"desc": "彩生活会员"
+		},
+		{
+			"table": "bwoil_member_jpush_device_binds",
+			"step": "bwoilMemberJpushMigrationStep",
+			"desc": "推送"
+		},
+		{
+			"table": "bwoil_member_log",
+			"step": "bwoilMemberLogMigrationStep",
+			"desc": "操作记录"
+		},
+		{
+			"table": "bwoil_member_msg",
+			"step": "bwoilMemberMsgMigrationStep",
+			"desc": "消息"
+		},
+		{
+			"table": "bwoil_member_shanghai_bos_bills",
+			"step": "bwoilMemberShanghaiBosBillsStep",
+			"desc": "上海银行联名卡"
+		},
+		{
+			"table": "bwoil_member_shanghai_sign",
+			"step": "bwoilMemberShanghaiSignMigrationStep",
+			"desc": "上海银行开户信息"
+		}
+	]
+}

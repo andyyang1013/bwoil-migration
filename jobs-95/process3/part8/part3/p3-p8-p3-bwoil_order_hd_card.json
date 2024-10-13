@@ -1,0 +1,12 @@
+{
+	"jobName": "p3-p8-p3-bwoil_order_hd_card",
+	"jobType": "simple",
+	"steps": 
+	[
+		{
+			"table": "bwoil_order_hd_card",
+			"step": "bwoilOrderHdCardMigrationStep",
+			"desc": "节日卡"
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"jobName": "p8-p3-p5-bwoil_operation_article_indexs",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_operation_article_indexs",
+			"step": "bwoilOperationArticleIndexsMigrationStep",
+			"desc": "文章内容"
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"jobName": "彩生活支付迁移作业",
+	"jobType": "simple",
+	"steps": 
+	[
+		{
+			"table": "bwoil_order_color_pay",
+			"step": "bwoilOrderColorPayMigrationStep",
+			"desc": "彩生活支付"
+		}
+	]
+}

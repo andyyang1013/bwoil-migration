@@ -1,0 +1,11 @@
+{
+	"jobName": "p5-p21-bwoil_operation_gasstation_refuel_payfailed",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_operation_gasstation_refuel_payfailed",
+			"step": "bwoilOperationGasstationRefuelPayfailedMigrationStep",
+			"desc": "打款"
+		}
+	]
+}

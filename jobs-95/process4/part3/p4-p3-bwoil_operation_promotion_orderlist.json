@@ -1,0 +1,11 @@
+{
+	"jobName": "p4-p3-bwoil_operation_promotion_orderlist",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_operation_promotion_orderlist",
+			"step": "bwoilOperationPromotionOrderlistMigrationStep",
+			"desc": "分销订单"
+		}
+	]
+}

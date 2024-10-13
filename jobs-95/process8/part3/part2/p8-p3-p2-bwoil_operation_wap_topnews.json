@@ -1,0 +1,11 @@
+{
+	"jobName": "p8-p3-p2-bwoil_operation_wap_topnews",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_operation_wap_topnews",
+			"step": "bwoilOperationWapTopnewsMigrationStep",
+			"desc": "今日头条"
+		}
+	]
+}

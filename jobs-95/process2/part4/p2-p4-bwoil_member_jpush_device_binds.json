@@ -1,0 +1,11 @@
+{
+	"jobName": "p2-p4-bwoil_member_jpush_device_binds",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_member_jpush_device_binds",
+			"step": "bwoilMemberJpushMigrationStep",
+			"desc": "推送"
+		}
+	]
+}

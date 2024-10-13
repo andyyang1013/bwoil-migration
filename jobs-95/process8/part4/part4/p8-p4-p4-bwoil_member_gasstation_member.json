@@ -1,0 +1,11 @@
+{
+  "jobName": "p8-p4-p4-bwoil_member_gasstation_member",
+  "jobType": "sequential",
+  "steps": [
+    {
+      "table": "bwoil_member_gasstation_member",
+      "step": "bwoilMemberGasstationMemberStep",
+      "desc": "加油站会员绑定"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+	"jobName": "关联数据迁移作业",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_member",
+			"desc": "会员账号表",
+			"step": "bwoilMemberMigrationStep"
+		}
+	]
+}

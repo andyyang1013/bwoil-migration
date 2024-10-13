@@ -1,0 +1,131 @@
+{
+	"jobName": "加油站迁移作业",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_operation_gasstation_company",
+			"step": "bwoilOperationGasstationCompanyMigrationStep",
+			"desc": "公司信息"
+		},
+		{
+			"table": "bwoil_operation_gasstation_agreement",
+			"step": "bwoilOperationGasstationAgreementMigrationStep",
+			"desc": "协议"
+		},
+		{
+			"table": "bwoil_operation_gasstation_oil_discount",
+			"step": "bwoilOperationGasstationOilDiscountMigrationStep",
+			"desc": "协议明细"
+		},
+		{
+			"table": "bwoil_operation_gasstation",
+			"step": "bwoilOperationGasstationMigrationStep",
+			"desc": "加油站"
+		},
+		{
+			"table": "bwoil_operation_gasstation_staff",
+			"step": "bwoilOperationGasstationStaffMigrationStep",
+			"desc": "职员"
+		},
+		{
+			"table": "bwoil_operation_gasstation_staff_shift",
+			"step": "bwoilOperationGasstationStaffShiftMigrationStep",
+			"desc": "职员班次"
+		},
+		{
+			"table": "bwoil_operation_gasstation_gun",
+			"step": "bwoilOperationGasstationGunMigrationStep",
+			"desc": "油枪"
+		},
+		{
+			"table": "bwoil_operation_gasstation_oil",
+			"step": "bwoilOperationGasstationOilMigrationStep",
+			"desc": "油品"
+		},
+		{
+			"table": "bwoil_operation_gasstation_oil_price_rule",
+			"step": "bwoilOperationGasstationOilPriceRuleMigrationStep",
+			"desc": "油价"
+		},
+		{
+			"table": "bwoil_operation_gasstation_sale_oil_price",
+			"step": "bwoilOperationGasstationSaleOilPriceMigrationStep",
+			"desc": "油品挂牌价"
+		},
+		{
+			"table": "bwoil_operation_gasstation_coupons",
+			"step": "bwoilOperationGasstationCouponsMigrationStep",
+			"desc": "优惠"
+		},
+		{
+			"table": "bwoil_operation_gasstation_refuel_coupon_rule",
+			"step": "bwoilOperationGasstationRefuelCouponRuleMigrationStep",
+			"desc": "优惠规则"
+		},
+		{
+			"table": "bwoil_operation_gasstation_discount_item",
+			"step": "bwoilOperationGasstationDiscountItemMigrationStep",
+			"desc": "折扣"
+		},
+		{
+			"table": "bwoil_operation_gasstation_discount_rule",
+			"step": "bwoilOperationGasstationDiscountRuleMigrationStep",
+			"desc": "折扣规则"
+		},
+		{
+			"table": "bwoil_operation_gasstation_activity",
+			"step": "bwoilOperationGasstationActivityMigrationStep",
+			"desc": "活动"
+		},
+		{
+			"table": "bwoil_operation_gasstation_activity_item",
+			"step": "bwoilOperationGasstationActivityItemMigrationStep",
+			"desc": "活动明细"
+		},
+		{
+			"table": "bwoil_operation_gasstation_cash_info",
+			"step": "bwoilOperationGasstationCashInfoMigrationStep",
+			"desc": "加油扣款"
+		},
+		{
+			"table": "bwoil_operation_gasstation_refuel_record",
+			"step": "bwoilOperationGasstationRefuelRecordMigrationStep",
+			"desc": "扫码加油记录"
+		},
+		{
+			"table": "bwoil_operation_gasstation_refuel_order",
+			"step": "bwoilOperationGasstationRefuelOrderMigrationStep",
+			"desc": "加油订单"
+		},
+		{
+			"table": "bwoil_operation_gasstation_settle_report",
+			"step": "bwoilOperationGasstationSettleReportMigrationStep",
+			"desc": "结算报表"
+		},
+		{
+			"table": "bwoil_operation_gasstation_refuel_payfailed",
+			"step": "bwoilOperationGasstationRefuelPayfailedMigrationStep",
+			"desc": "打款"
+		},
+		{
+			"table": "bwoil_operation_gasstation_refuel_paylog",
+			"step": "bwoilOperationGasstationRefuelPaylogMigrationStep",
+			"desc": "打款日志"
+		},
+		{
+			"table": "bwoil_operation_gasstation_manualbill",
+			"step": "bwoilOperationGasstationManualbillMigrationStep",
+			"desc": "清结算财务"
+		},
+		{
+			"table": "bwoil_operation_gasstation_manual_paybn",
+			"step": "bwoilOperationGasstationManualpayMigrationStep",
+			"desc": "清结算打款"
+		},
+		{
+			"table": "bwoil_operation_gasstation_manualtype",
+			"step": "bwoilOperationGasstationManualtpyeMigrationStep",
+			"desc": "清结算类型"
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+  "jobName": "p8-p4-p6-bwoil_operation_member_insurance",
+  "jobType": "sequential",
+  "steps": [
+    {
+      "table": "bwoil_operation_member_insurance",
+      "step": "bwoilOperationInsuranceMigrationStep",
+      "desc": "资产保险"
+    }
+  ]
+}

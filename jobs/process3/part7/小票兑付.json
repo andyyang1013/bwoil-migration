@@ -1,0 +1,12 @@
+{
+	"jobName": "小票兑付迁移作业",
+	"jobType": "simple",
+	"steps": 
+	[
+		{
+			"table": "bwoil_order_redeem_ticket",
+			"step": "bwoilOrderRedeemTicketMigrationStep",
+			"desc": "小票兑付"
+		}
+	]
+}

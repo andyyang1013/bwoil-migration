@@ -1,0 +1,11 @@
+{
+	"jobName": "p6-p7-bwoil_operation_command_activity",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_operation_command_activity",
+			"step": "bwoilOperationCommandActivityMigrationStep",
+			"desc": "口令活动"
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"jobName": "p10-p1-update",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_order_cards",
+			"step": "bwoilOrderCardUpdateMigrationStep",
+			"desc": "卡数据更新处理"
+		},
+		{
+			"table": "bwoil_order_redeem_plan",
+			"step": "bwoilOrderPlanUpdateMigrationStep",
+			"desc": "兑付计划数据更新处理"
+		},
+		{
+			"table": "bwoil_order_cards",
+			"step": "bwoilOrderCardUpdate2MigrationStep",
+			"desc": "卡数据更新处理"
+		}
+	]
+}

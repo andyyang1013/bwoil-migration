@@ -1,0 +1,11 @@
+{
+	"jobName": "p5-p3-bwoil_operation_gasstation_oil_discount",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_operation_gasstation_oil_discount",
+			"step": "bwoilOperationGasstationOilDiscountMigrationStep",
+			"desc": "协议明细"
+		}
+	]
+}

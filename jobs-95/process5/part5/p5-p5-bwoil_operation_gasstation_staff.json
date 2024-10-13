@@ -1,0 +1,11 @@
+{
+	"jobName": "p5-p5-bwoil_operation_gasstation_staff",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_operation_gasstation_staff",
+			"step": "bwoilOperationGasstationStaffMigrationStep",
+			"desc": "职员"
+		}
+	]
+}

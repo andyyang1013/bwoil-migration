@@ -1,0 +1,12 @@
+{
+	"jobName": "p3-p8-p6-bwoil_order_refunds",
+	"jobType": "simple",
+	"steps": 
+	[
+		{
+			"table": "bwoil_order_refunds",
+			"step": "bwoilOrderRefundsMigrationStep",
+			"desc": "退款列表"
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"jobName": "资金流水迁移作业",
+	"jobType": "simple",
+	"steps": 
+	[
+		{
+			"table": "bwoil_order_cash_flow",
+			"step": "bwoilOrderCashFlowMigrationStep",
+			"desc": "资金流水"
+		}
+	]
+}

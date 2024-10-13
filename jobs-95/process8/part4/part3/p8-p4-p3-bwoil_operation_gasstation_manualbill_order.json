@@ -1,0 +1,11 @@
+{
+  "jobName": "p8-p4-p3-bwoil_operation_gasstation_manualbill_order",
+  "jobType": "sequential",
+  "steps": [
+    {
+      "table": "bwoil_operation_gasstation_manualbill_order",
+      "step": "bwoilOperationGasstationManualbillOrderStep",
+      "desc": "加油站打款成功后记录"
+    }
+  ]
+}

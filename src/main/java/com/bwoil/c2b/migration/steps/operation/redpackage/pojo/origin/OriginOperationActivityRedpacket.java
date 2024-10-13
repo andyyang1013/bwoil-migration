@@ -1,0 +1,177 @@
+package com.bwoil.c2b.migration.steps.operation.redpackage.pojo.origin;
+
+
+public class OriginOperationActivityRedpacket {
+
+  private String id;
+  private String orderId;
+  private String memberId;
+  private String mobile;
+  private String cpnsDesc;
+  private String cpnsInfo;
+  private String name;
+  private Double amount;
+  private Long getTime;
+  private Long accountTime;
+  private Long deadTime;
+  private Long regTime;
+  private String isAuth;
+  private String openid;
+  private String weixinNc;
+  private String weixinImg;
+  private String sendStatus;
+
+
+  public String getId() {
+    return id;
+  }
+
+  public void setId(String id) {
+    this.id = id;
+  }
+
+
+  public String getOrderId() {
+    return orderId;
+  }
+
+  public void setOrderId(String orderId) {
+    this.orderId = orderId;
+  }
+
+
+  public String getMemberId() {
+    return memberId;
+  }
+
+  public void setMemberId(String memberId) {
+    this.memberId = memberId;
+  }
+
+
+  public String getMobile() {
+    return mobile;
+  }
+
+  public void setMobile(String mobile) {
+    this.mobile = mobile;
+  }
+
+
+  public String getCpnsDesc() {
+    return cpnsDesc;
+  }
+
+  public void setCpnsDesc(String cpnsDesc) {
+    this.cpnsDesc = cpnsDesc;
+  }
+
+
+  public String getCpnsInfo() {
+    return cpnsInfo;
+  }
+
+  public void setCpnsInfo(String cpnsInfo) {
+    this.cpnsInfo = cpnsInfo;
+  }
+
+
+  public String getName() {
+    return name;
+  }
+
+  public void setName(String name) {
+    this.name = name;
+  }
+
+
+  public Double getAmount() {
+    return amount;
+  }
+
+  public void setAmount(Double amount) {
+    this.amount = amount;
+  }
+
+
+  public Long getGetTime() {
+    return getTime;
+  }
+
+  public void setGetTime(Long getTime) {
+    this.getTime = getTime;
+  }
+
+
+  public Long getAccountTime() {
+    return accountTime;
+  }
+
+  public void setAccountTime(Long accountTime) {
+    this.accountTime = accountTime;
+  }
+
+
+  public Long getDeadTime() {
+    return deadTime;
+  }
+
+  public void setDeadTime(Long deadTime) {
+    this.deadTime = deadTime;
+  }
+
+
+  public Long getRegTime() {
+    return regTime;
+  }
+
+  public void setRegTime(Long regTime) {
+    this.regTime = regTime;
+  }
+
+
+  public String getIsAuth() {
+    return isAuth;
+  }
+
+  public void setIsAuth(String isAuth) {
+    this.isAuth = isAuth;
+  }
+
+
+  public String getOpenid() {
+    return openid;
+  }
+
+  public void setOpenid(String openid) {
+    this.openid = openid;
+  }
+
+
+  public String getWeixinNc() {
+    return weixinNc;
+  }
+
+  public void setWeixinNc(String weixinNc) {
+    this.weixinNc = weixinNc;
+  }
+
+
+  public String getWeixinImg() {
+    return weixinImg;
+  }
+
+  public void setWeixinImg(String weixinImg) {
+    this.weixinImg = weixinImg;
+  }
+
+
+  public String getSendStatus() {
+    return sendStatus;
+  }
+
+  public void setSendStatus(String sendStatus) {
+    this.sendStatus = sendStatus;
+  }
+
+}

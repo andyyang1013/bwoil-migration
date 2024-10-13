@@ -1,0 +1,11 @@
+{
+	"jobName": "p5-p2-bwoil_operation_gasstation_agreement",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_operation_gasstation_agreement",
+			"step": "bwoilOperationGasstationAgreementMigrationStep",
+			"desc": "协议"
+		}
+	]
+}

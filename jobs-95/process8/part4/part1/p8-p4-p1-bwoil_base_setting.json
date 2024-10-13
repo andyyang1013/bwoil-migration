@@ -1,0 +1,11 @@
+{
+  "jobName": "p8-p4-p1-bwoil_base_setting",
+  "jobType": "sequential",
+  "steps": [
+    {
+      "table": "bwoil_base_setting",
+      "step": "bwoilBaseSettingMigrationStep",
+      "desc": "银行账号"
+    }
+  ]
+}

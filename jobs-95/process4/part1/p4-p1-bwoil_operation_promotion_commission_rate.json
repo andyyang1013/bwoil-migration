@@ -1,0 +1,11 @@
+{
+	"jobName": "p4-p1-bwoil_operation_promotion_commission_rate",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_operation_promotion_commission_rate",
+			"step": "bwoilOperationCommissionRateMigrationStep",
+			"desc": "商品佣金比例"
+		}
+	]
+}

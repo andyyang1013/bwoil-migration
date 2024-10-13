@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: BwoilMigration
+  batch:
+    initialize-schema: always
+    job:
+      enabled: true
+      names: migrationJob
+  profiles:
+    active: dev

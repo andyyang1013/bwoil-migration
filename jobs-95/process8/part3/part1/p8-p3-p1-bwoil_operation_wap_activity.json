@@ -1,0 +1,11 @@
+{
+	"jobName": "p8-p3-p1-bwoil_operation_wap_activity",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_operation_wap_activity",
+			"step": "bwoilOperationWapActivityMigrationStep",
+			"desc": "活动配置"
+		}
+	]
+}

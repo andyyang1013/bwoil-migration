@@ -1,0 +1,11 @@
+{
+	"jobName": "p10-p4-bwoil_operation_base_order",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_operation_base_order",
+			"desc": "运营订单基础表",
+			"step": "bwoilOperationBaseOrderMigrationStep"
+		}
+	]
+}

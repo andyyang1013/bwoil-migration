@@ -1,0 +1,11 @@
+{
+	"jobName": "p2-p5-bwoil_member_log",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_member_log",
+			"step": "bwoilMemberLogMigrationStep",
+			"desc": "操作记录"
+		}
+	]
+}

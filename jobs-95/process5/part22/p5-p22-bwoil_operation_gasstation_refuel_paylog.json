@@ -1,0 +1,11 @@
+{
+	"jobName": "p5-p22-bwoil_operation_gasstation_refuel_paylog",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_operation_gasstation_refuel_paylog",
+			"step": "bwoilOperationGasstationRefuelPaylogMigrationStep",
+			"desc": "打款日志"
+		}
+	]
+}

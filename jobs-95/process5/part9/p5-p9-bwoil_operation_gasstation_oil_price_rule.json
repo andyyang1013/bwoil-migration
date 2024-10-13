@@ -1,0 +1,11 @@
+{
+	"jobName": "p5-p9-bwoil_operation_gasstation_oil_price_rule",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_operation_gasstation_oil_price_rule",
+			"step": "bwoilOperationGasstationOilPriceRuleMigrationStep",
+			"desc": "油价"
+		}
+	]
+}

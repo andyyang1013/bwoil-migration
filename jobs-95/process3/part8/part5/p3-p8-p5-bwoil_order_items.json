@@ -1,0 +1,12 @@
+{
+	"jobName": "p3-p8-p5-bwoil_order_items",
+	"jobType": "simple",
+	"steps": 
+	[
+		{
+			"table": "bwoil_order_items",
+			"step": "bwoilOrderItemsMigrationStep",
+			"desc": "订单快照"
+		}
+	]
+}

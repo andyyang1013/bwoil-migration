@@ -1,0 +1,12 @@
+{
+	"jobName": "订单取消表迁移作业",
+	"jobType": "simple",
+	"steps": 
+	[
+		{
+			"table": "bwoil_order_cancel",
+			"step": "bwoilOrderCancelMigrationStep",
+			"desc": "订单取消表"
+		}
+	]
+}

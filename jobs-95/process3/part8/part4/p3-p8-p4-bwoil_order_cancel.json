@@ -1,0 +1,12 @@
+{
+	"jobName": "p3-p8-p4-bwoil_order_cancel",
+	"jobType": "simple",
+	"steps": 
+	[
+		{
+			"table": "bwoil_order_cancel",
+			"step": "bwoilOrderCancelMigrationStep",
+			"desc": "订单取消表"
+		}
+	]
+}

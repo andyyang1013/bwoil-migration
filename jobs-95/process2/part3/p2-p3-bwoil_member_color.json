@@ -1,0 +1,11 @@
+{
+	"jobName": "p2-p3-bwoil_member_color",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_member_color",
+			"step": "bwoilMemberColorMigrationStep",
+			"desc": "彩生活会员"
+		}
+	]
+}

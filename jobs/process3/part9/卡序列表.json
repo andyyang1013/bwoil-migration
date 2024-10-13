@@ -1,0 +1,12 @@
+{
+	"jobName": "卡序列表迁移作业",
+	"jobType": "simple",
+	"steps": 
+	[
+		{
+			"table": "bwoil_order_card_seq",
+			"step": "bwoilOrderCardSeqMigrationStep",
+			"desc": "卡序列表"
+		}
+	]
+}

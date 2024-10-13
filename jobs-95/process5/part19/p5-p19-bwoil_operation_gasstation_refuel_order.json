@@ -1,0 +1,11 @@
+{
+	"jobName": "p5-p19-bwoil_operation_gasstation_refuel_order",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_operation_gasstation_refuel_order",
+			"step": "bwoilOperationGasstationRefuelOrderMigrationStep",
+			"desc": "加油订单"
+		}
+	]
+}

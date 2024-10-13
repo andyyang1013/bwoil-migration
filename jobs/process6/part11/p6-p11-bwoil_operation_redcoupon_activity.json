@@ -1,0 +1,11 @@
+{
+	"jobName": "p6-p11-bwoil_operation_redcoupon_activity",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_operation_redcoupon_activity",
+			"step": "bwoilOperationRedcouponActivityMigrationStep",
+			"desc": "满减活动"
+		}
+	]
+}

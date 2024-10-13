@@ -1,0 +1,12 @@
+{
+	"jobName": "p3-p7-p5-bwoil_order_redeem_ticket",
+	"jobType": "simple",
+	"steps": 
+	[
+		{
+			"table": "bwoil_order_redeem_ticket",
+			"step": "bwoilOrderRedeemTicketMigrationStep",
+			"desc": "小票兑付"
+		}
+	]
+}

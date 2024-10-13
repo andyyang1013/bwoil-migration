@@ -1,0 +1,12 @@
+{
+	"jobName": "订单快照迁移作业",
+	"jobType": "simple",
+	"steps": 
+	[
+		{
+			"table": "bwoil_order_items",
+			"step": "bwoilOrderItemsMigrationStep",
+			"desc": "订单快照"
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"jobName": "p4-p5-bwoil_operation_promotion_report",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_operation_promotion_report",
+			"step": "bwoilOperationPromotionReportMigrationStep",
+			"desc": "分销报表"
+		}
+	]
+}

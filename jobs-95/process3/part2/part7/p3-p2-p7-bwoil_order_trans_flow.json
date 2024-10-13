@@ -1,0 +1,11 @@
+{
+  "jobName": "p3-p2-p7-bwoil_order_trans_flow",
+  "jobType": "sequential",
+  "steps": [
+    {
+      "table": "bwoil_order_trans_flow",
+      "step": "bwoilTransferFlowMigrationStep",
+      "desc": "提现"
+    }
+  ]
+}

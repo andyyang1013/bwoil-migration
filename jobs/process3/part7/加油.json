@@ -1,0 +1,12 @@
+{
+	"jobName": "加油迁移作业",
+	"jobType": "simple",
+	"steps": 
+	[
+		{
+			"table": "bwoil_order_refuel",
+			"step": "bwoilOrderRefuelMigrationStep",
+			"desc": "加油"
+		}
+	]
+}

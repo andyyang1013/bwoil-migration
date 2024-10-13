@@ -1,0 +1,11 @@
+{
+	"jobName": "p2-p1-bwoil_member_bank",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_member_bank",
+			"step": "bwoilMemberBankMigrationStep",
+			"desc": "银行账号"
+		}
+	]
+}

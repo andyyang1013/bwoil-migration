@@ -1,0 +1,11 @@
+{
+	"jobName": "p8-p3-p6-bwoil_operation_article_nodes",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_operation_article_nodes",
+			"step": "bwoilOperationArticleNodesMigrationStep",
+			"desc": "文章节点"
+		}
+	]
+}

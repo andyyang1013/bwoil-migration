@@ -1,0 +1,12 @@
+{
+	"jobName": "兑付迁移作业",
+	"jobType": "simple",
+	"steps": 
+	[
+		{
+			"table": "bwoil_order_redeem",
+			"step": "bwoilOrderRedeemMigrationStep",
+			"desc": "兑付"
+		}
+	]
+}

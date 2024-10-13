@@ -1,0 +1,11 @@
+{
+	"jobName": "p6-p8-bwoil_operation_oil_activity",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_operation_oil_activity",
+			"step": "bwoilOperationOilActivityMigrationStep",
+			"desc": "油包活动"
+		}
+	]
+}

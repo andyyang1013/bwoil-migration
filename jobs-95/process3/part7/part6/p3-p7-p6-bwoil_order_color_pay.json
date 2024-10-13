@@ -1,0 +1,12 @@
+{
+	"jobName": "p3-p7-p6-bwoil_order_color_pay",
+	"jobType": "simple",
+	"steps": 
+	[
+		{
+			"table": "bwoil_order_color_pay",
+			"step": "bwoilOrderColorPayMigrationStep",
+			"desc": "彩生活支付"
+		}
+	]
+}

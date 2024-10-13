@@ -1,0 +1,12 @@
+{
+	"jobName": "p3-p7-p4-bwoil_order_card_cycle",
+	"jobType": "simple",
+	"steps": 
+	[
+		{
+			"table": "bwoil_order_card_cycle",
+			"step": "bwoilOrderCardCycleMigrationStep",
+			"desc": "小票兑付、扫码加油卡交易表"
+		}
+	]
+}

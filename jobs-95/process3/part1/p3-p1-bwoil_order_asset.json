@@ -1,0 +1,12 @@
+{
+	"jobName": "p3-p1-bwoil_order_asset",
+	"jobType": "simple",
+	"steps": 
+	[
+		{
+			"table": "bwoil_order_asset",
+			"step": "bwoilOrderAssetMigrationStep",
+			"desc": "资产"
+		}
+	]
+}

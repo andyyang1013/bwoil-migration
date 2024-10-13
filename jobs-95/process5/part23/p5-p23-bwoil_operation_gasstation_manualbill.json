@@ -1,0 +1,11 @@
+{
+	"jobName": "p5-p23-bwoil_operation_gasstation_manualbill",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_operation_gasstation_manualbill",
+			"step": "bwoilOperationGasstationManualbillMigrationStep",
+			"desc": "清结算财务"
+		}
+	]
+}

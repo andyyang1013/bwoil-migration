@@ -1,0 +1,12 @@
+{
+	"jobName": "p3-p6-bwoil_order_redeem",
+	"jobType": "simple",
+	"steps": 
+	[
+		{
+			"table": "bwoil_order_redeem",
+			"step": "bwoilOrderRedeemMigrationStep",
+			"desc": "兑付"
+		}
+	]
+}

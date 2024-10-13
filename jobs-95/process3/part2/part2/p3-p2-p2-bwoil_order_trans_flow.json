@@ -1,0 +1,11 @@
+{
+  "jobName": "p3-p2-p2-bwoil_order_trans_flow",
+  "jobType": "sequential",
+  "steps": [
+    {
+      "table": "bwoil_order_trans_flow",
+      "step": "bwoilCashRechcargeFlowMigrationStep",
+      "desc": "油卡充值"
+    }
+  ]
+}

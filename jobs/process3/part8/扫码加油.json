@@ -1,0 +1,12 @@
+{
+	"jobName": "扫码加油迁移作业",
+	"jobType": "simple",
+	"steps": 
+	[
+		{
+			"table": "bwoil_order_scan_refuel",
+			"step": "bwoilOrderScanRefuelMigrationStep",
+			"desc": "扫码加油"
+		}
+	]
+}

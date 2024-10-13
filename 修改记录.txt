@@ -1,0 +1,29 @@
+================2019-06-27修改记录================
+process1
+BwoilMemberMigration
+
+process2
+BwoilMemberBankMigration
+BwoilMemberJpushMigration
+
+process3 part2 part2
+BwoilCashRechcargeFlowMigration
+
+process3 part2 part5
+BwoilRechargeFlowMigration
+
+process3 part7
+BwoilOrderRechargeMigration
+
+process4
+BwoilOperationPromotionOrderlistMigration
+
+================2019-06-26修改记录================
+process6 part2
+bwoilOperationCashcouponActivityMigrationStep
+
+process3 part7
+bwoilOrderRedeemTicketMigrationStep
+
+process3 part8
+bwoilOrderHdCardMigrationStep

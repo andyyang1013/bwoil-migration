@@ -1,0 +1,11 @@
+{
+	"jobName": "p5-p24-bwoil_operation_gasstation_manual_paybn",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_operation_gasstation_manual_paybn",
+			"step": "bwoilOperationGasstationManualpayMigrationStep",
+			"desc": "清结算打款"
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"jobName": "小票兑付-扫码加油卡交易表迁移作业",
+	"jobType": "simple",
+	"steps": 
+	[
+		{
+			"table": "bwoil_order_card_cycle",
+			"step": "bwoilOrderCardCycleMigrationStep",
+			"desc": "小票兑付、扫码加油卡交易表"
+		}
+	]
+}

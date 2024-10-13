@@ -1,0 +1,11 @@
+{
+	"jobName": "客服迁移作业",
+	"jobType": "simple",
+	"steps": [
+		{
+			"table": "bwoil_operation_feedback",
+			"step": "bwoilOperationFeedbackMigrationStep",
+			"desc": "反馈"
+		}
+	]
+}

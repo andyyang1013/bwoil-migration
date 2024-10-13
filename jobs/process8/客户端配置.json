@@ -1,0 +1,36 @@
+{
+	"jobName": "客户端配置迁移作业",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_operation_wap_activity",
+			"step": "bwoilOperationWapActivityMigrationStep",
+			"desc": "活动配置"
+		},
+		{
+			"table": "bwoil_operation_wap_topnews",
+			"step": "bwoilOperationWapTopnewsMigrationStep",
+			"desc": "今日头条"
+		},
+		{
+			"table": "bwoil_operation_idfa",
+			"step": "bwoilOperationIdfaMigrationStep",
+			"desc": "广告标识符"
+		},
+		{
+			"table": "bwoil_operation_auth",
+			"step": "bwoilOperationAuthMigrationStep",
+			"desc": "APP认证"
+		},
+		{
+			"table": "bwoil_operation_article_indexs",
+			"step": "bwoilOperationArticleIndexsMigrationStep",
+			"desc": "文章内容"
+		},
+		{
+			"table": "bwoil_operation_article_nodes",
+			"step": "bwoilOperationArticleNodesMigrationStep",
+			"desc": "文章节点"
+		}
+	]
+}

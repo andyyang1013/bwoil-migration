@@ -1,0 +1,11 @@
+{
+	"jobName": "p6-p3-bwoil_operation_cashcoupon_queue",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_operation_cashcoupon_queue",
+			"step": "bwoilOperationCashcouponQueueMigrationStep",
+			"desc": "现金券赠送队列"
+		}
+	]
+}

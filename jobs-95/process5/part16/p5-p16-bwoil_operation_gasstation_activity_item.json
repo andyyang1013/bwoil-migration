@@ -1,0 +1,11 @@
+{
+	"jobName": "p5-p16-bwoil_operation_gasstation_activity_item",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_operation_gasstation_activity_item",
+			"step": "bwoilOperationGasstationActivityItemMigrationStep",
+			"desc": "活动明细"
+		}
+	]
+}

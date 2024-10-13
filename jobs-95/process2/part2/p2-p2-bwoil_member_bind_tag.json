@@ -1,0 +1,11 @@
+{
+	"jobName": "p2-p2-bwoil_member_bind_tag",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_member_bind_tag",
+			"step": "bwoilMemberBindTagMigrationStep",
+			"desc": "第三方平台会员绑定"
+		}
+	]
+}

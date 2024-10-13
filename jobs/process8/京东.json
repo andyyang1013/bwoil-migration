@@ -1,0 +1,11 @@
+{
+  "jobName": "京东迁移作业",
+  "jobType": "sequential",
+  "steps": [
+    {
+      "table": "bwoil_order_channel_orders",
+      "step": "bwoilChannelOrdersMigrationStep",
+      "desc": "京东关系表"
+    }
+  ]
+}

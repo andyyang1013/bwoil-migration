@@ -1,0 +1,12 @@
+{
+	"jobName": "p3-p8-p1-bwoil_order_scan_refuel",
+	"jobType": "simple",
+	"steps": 
+	[
+		{
+			"table": "bwoil_order_scan_refuel",
+			"step": "bwoilOrderScanRefuelMigrationStep",
+			"desc": "扫码加油"
+		}
+	]
+}

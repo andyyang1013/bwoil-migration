@@ -1,0 +1,12 @@
+{
+	"jobName": "p3-p8-p2-bwoil_order_cash_apply",
+	"jobType": "simple",
+	"steps": 
+	[
+		{
+			"table": "bwoil_order_cash_apply",
+			"step": "bwoilOrderCashApplyMigrationStep",
+			"desc": "提现申请"
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"jobName": "p8-p3-p3-bwoil_operation_idfa",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_operation_idfa",
+			"step": "bwoilOperationIdfaMigrationStep",
+			"desc": "广告标识符"
+		}
+	]
+}

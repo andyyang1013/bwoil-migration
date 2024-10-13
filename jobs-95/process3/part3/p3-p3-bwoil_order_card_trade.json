@@ -1,0 +1,12 @@
+{
+	"jobName": "p3-p3-bwoil_order_card_trade",
+	"jobType": "simple",
+	"steps": 
+	[
+		{
+			"table": "bwoil_order_card_trade",
+			"step": "bwoilOrderCardTradeMigrationStep",
+			"desc": "卡交易"
+		}
+	]
+}

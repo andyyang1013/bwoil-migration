@@ -1,0 +1,12 @@
+{
+	"jobName": "资产迁移作业",
+	"jobType": "simple",
+	"steps": 
+	[
+		{
+			"table": "bwoil_order_asset",
+			"step": "bwoilOrderAssetMigrationStep",
+			"desc": "资产"
+		}
+	]
+}

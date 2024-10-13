@@ -1,0 +1,12 @@
+{
+	"jobName": "提现申请迁移作业",
+	"jobType": "simple",
+	"steps": 
+	[
+		{
+			"table": "bwoil_order_cash_apply",
+			"step": "bwoilOrderCashApplyMigrationStep",
+			"desc": "提现申请"
+		}
+	]
+}

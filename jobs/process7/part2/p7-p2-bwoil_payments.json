@@ -1,0 +1,11 @@
+{
+	"jobName": "p7-p2-bwoil_payments",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_payments",
+			"step": "bwoilPaymentMigrationStep",
+			"desc": "支付单"
+		}
+	]
+}

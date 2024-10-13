@@ -1,0 +1,12 @@
+{
+	"jobName": "卡交易迁移作业",
+	"jobType": "simple",
+	"steps": 
+	[
+		{
+			"table": "bwoil_order_card_trade",
+			"step": "bwoilOrderCardTradeMigrationStep",
+			"desc": "卡交易"
+		}
+	]
+}

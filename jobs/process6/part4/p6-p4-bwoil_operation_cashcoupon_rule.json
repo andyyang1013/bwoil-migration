@@ -1,0 +1,11 @@
+{
+	"jobName": "p6-p4-bwoil_operation_cashcoupon_rule",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_operation_cashcoupon_rule",
+			"step": "bwoilOperationCashcouponRuleMigrationStep",
+			"desc": "现金券规则"
+		}
+	]
+}

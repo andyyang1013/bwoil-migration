@@ -1,0 +1,12 @@
+{
+	"jobName": "p3-p4-bwoil_order_cash_flow",
+	"jobType": "simple",
+	"steps": 
+	[
+		{
+			"table": "bwoil_order_cash_flow",
+			"step": "bwoilOrderCashFlowMigrationStep",
+			"desc": "资金流水"
+		}
+	]
+}

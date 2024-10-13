@@ -1,0 +1,11 @@
+{
+	"jobName": "p2-p7-bwoil_member_shanghai_bos_bills",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_member_shanghai_bos_bills",
+			"step": "bwoilMemberShanghaiBosBillsStep",
+			"desc": "上海银行联名卡"
+		}
+	]
+}

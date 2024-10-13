@@ -1,0 +1,12 @@
+{
+	"jobName": "节日卡迁移作业",
+	"jobType": "simple",
+	"steps": 
+	[
+		{
+			"table": "bwoil_order_hd_card",
+			"step": "bwoilOrderHdCardMigrationStep",
+			"desc": "节日卡"
+		}
+	]
+}

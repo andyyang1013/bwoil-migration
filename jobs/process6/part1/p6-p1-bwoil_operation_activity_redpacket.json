@@ -1,0 +1,11 @@
+{
+	"jobName": "p6-p1-bwoil_operation_activity_redpacket",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_operation_activity_redpacket",
+			"step": "bwoilOperationActivityRedpacketMigrationStep",
+			"desc": "分享红包活动"
+		}
+	]
+}

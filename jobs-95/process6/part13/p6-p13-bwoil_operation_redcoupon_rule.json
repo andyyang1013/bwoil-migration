@@ -1,0 +1,11 @@
+{
+	"jobName": "p6-p13-bwoil_operation_redcoupon_rule",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_operation_redcoupon_rule",
+			"step": "bwoilOperationRedcouponRuleMigrationStep",
+			"desc": "满减规则"
+		}
+	]
+}

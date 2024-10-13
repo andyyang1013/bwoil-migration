@@ -1,0 +1,11 @@
+{
+  "jobName": "p8-p4-p7-bwoil_order_cash_task",
+  "jobType": "sequential",
+  "steps": [
+    {
+      "table": "bwoil_order_cash_task",
+      "step": "bwoilOrderCashTaskMigrationStep",
+      "desc": "打款任务表"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+	"jobName": "p5-p8-bwoil_operation_gasstation_oil",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_operation_gasstation_oil",
+			"step": "bwoilOperationGasstationOilMigrationStep",
+			"desc": "油品"
+		}
+	]
+}

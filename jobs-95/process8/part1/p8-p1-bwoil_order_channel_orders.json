@@ -1,0 +1,11 @@
+{
+  "jobName": "p8-p1-bwoil_order_channel_orders",
+  "jobType": "sequential",
+  "steps": [
+    {
+      "table": "bwoil_order_channel_orders",
+      "step": "bwoilChannelOrdersMigrationStep",
+      "desc": "京东关系表"
+    }
+  ]
+}

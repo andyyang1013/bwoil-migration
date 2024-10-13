@@ -1,0 +1,11 @@
+{
+	"jobName": "p6-p6-bwoil_operation_command_activity_join",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_operation_command_activity_join",
+			"step": "bwoilOperationCommandActivityJoinMigrationStep",
+			"desc": "口令活动参与记录"
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"jobName": "p8-p3-p4-bwoil_operation_auth",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_operation_auth",
+			"step": "bwoilOperationAuthMigrationStep",
+			"desc": "APP认证"
+		}
+	]
+}

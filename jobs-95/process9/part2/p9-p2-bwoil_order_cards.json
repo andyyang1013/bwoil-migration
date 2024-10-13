@@ -1,0 +1,11 @@
+{
+	"jobName": "p9-p2-bwoil_order_cards",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_order_cards",
+			"step": "bwoilOrderCardsMigrationStep",
+			"desc": "卡表"
+		}
+	]
+}

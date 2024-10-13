@@ -1,0 +1,11 @@
+{
+	"jobName": "p5-p20-bwoil_operation_gasstation_settle_report",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_operation_gasstation_settle_report",
+			"step": "bwoilOperationGasstationSettleReportMigrationStep",
+			"desc": "结算报表"
+		}
+	]
+}

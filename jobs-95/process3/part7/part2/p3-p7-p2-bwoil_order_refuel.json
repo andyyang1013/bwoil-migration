@@ -1,0 +1,12 @@
+{
+	"jobName": "p3-p7-p2-bwoil_order_refuel",
+	"jobType": "simple",
+	"steps": 
+	[
+		{
+			"table": "bwoil_order_refuel",
+			"step": "bwoilOrderRefuelMigrationStep",
+			"desc": "加油"
+		}
+	]
+}

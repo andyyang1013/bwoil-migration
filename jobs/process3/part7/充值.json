@@ -1,0 +1,12 @@
+{
+	"jobName": "充值迁移作业",
+	"jobType": "simple",
+	"steps": 
+	[
+		{
+			"table": "bwoil_order_recharge",
+			"step": "bwoilOrderRechargeMigrationStep",
+			"desc": "充值"
+		}
+	]
+}

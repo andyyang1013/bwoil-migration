@@ -1,0 +1,11 @@
+{
+	"jobName": "p10-p3-bwoil_operation_base_member",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_operation_base_member",
+			"desc": "运营会员基础表",
+			"step": "bwoilOperationBaseMemberMigrationStep"
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"jobName": "订单日志迁移作业",
+	"jobType": "simple",
+	"steps": 
+	[
+		{
+			"table": "bwoil_order_log",
+			"step": "bwoilOrderLogMigrationStep",
+			"desc": "订单日志"
+		}
+	]
+}

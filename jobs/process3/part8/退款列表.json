@@ -1,0 +1,12 @@
+{
+	"jobName": "退款列表迁移作业",
+	"jobType": "simple",
+	"steps": 
+	[
+		{
+			"table": "bwoil_order_refunds",
+			"step": "bwoilOrderRefundsMigrationStep",
+			"desc": "退款列表"
+		}
+	]
+}

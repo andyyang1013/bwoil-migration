@@ -1,0 +1,11 @@
+{
+	"jobName": "p6-p10-bwoil_operation_report_oil_pck_tran",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_operation_report_oil_pck_tran",
+			"step": "bwoilOperationReportOilPckTranMigrationStep",
+			"desc": "油箱交易记录"
+		}
+	]
+}

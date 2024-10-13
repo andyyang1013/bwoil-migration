@@ -1,0 +1,11 @@
+{
+	"jobName": "p2-p6-bwoil_member_msg",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_member_msg",
+			"step": "bwoilMemberMsgMigrationStep",
+			"desc": "消息"
+		}
+	]
+}

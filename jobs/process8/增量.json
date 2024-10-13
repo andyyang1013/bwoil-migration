@@ -1,0 +1,41 @@
+{
+  "jobName": "增量迁移作业",
+  "jobType": "sequential",
+  "steps": [
+    {
+      "table": "bwoil_base_setting",
+      "step": "bwoilBaseSettingMigrationStep",
+      "desc": "银行账号"
+    },
+    {
+      "table": "bwoil_operation_gasstation_images",
+      "step": "bwoilOperationGasstationImagesStep",
+      "desc": "加油站的图片表"
+    },
+    {
+      "table": "bwoil_operation_gasstation_manualbill_order",
+      "step": "bwoilOperationGasstationManualbillOrderStep",
+      "desc": "加油站打款成功后记录"
+    },
+    {
+      "table": "bwoil_member_gasstation_member",
+      "step": "bwoilMemberGasstationMemberStep",
+      "desc": "加油站会员绑定"
+    },
+    {
+      "table": "bwoil_operation_gasstation_remittance_log",
+      "step": "bwoilOperationGasstationRemittanceLogStep",
+      "desc": "加油站打款回调日志表"
+    },
+    {
+      "table": "bwoil_operation_member_insurance",
+      "step": "bwoilOperationInsuranceMigrationStep",
+      "desc": "资产保险"
+    },
+    {
+      "table": "bwoil_order_cash_task",
+      "step": "bwoilOrderCashTaskMigrationStep",
+      "desc": "打款任务表"
+    }
+  ]
+}

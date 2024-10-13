@@ -1,0 +1,11 @@
+{
+	"jobName": "p9-p1-bwoil_order",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_order",
+			"desc": "订单表",
+			"step": "bwoilOrderMigrationStep"
+		}
+	]
+}

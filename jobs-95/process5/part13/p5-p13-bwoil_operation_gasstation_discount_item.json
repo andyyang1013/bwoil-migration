@@ -1,0 +1,11 @@
+{
+	"jobName": "p5-p13-bwoil_operation_gasstation_discount_item",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_operation_gasstation_discount_item",
+			"step": "bwoilOperationGasstationDiscountItemMigrationStep",
+			"desc": "折扣"
+		}
+	]
+}

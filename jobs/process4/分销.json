@@ -1,0 +1,36 @@
+{
+	"jobName": "分销迁移作业",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_operation_promotion_commission_rate",
+			"step": "bwoilOperationCommissionRateMigrationStep",
+			"desc": "商品佣金比例"
+		},
+		{
+			"table": "bwoil_operation_promotion_channel",
+			"step": "bwoilOperationPromotionChannelMigrationStep",
+			"desc": "分销渠道"
+		},
+		{
+			"table": "bwoil_operation_promotion_orderlist",
+			"step": "bwoilOperationPromotionOrderlistMigrationStep",
+			"desc": "分销订单"
+		},
+		{
+			"table": "bwoil_operation_promotion_relationship",
+			"step": "bwoilOperationPromotionRelationshipMigrationStep",
+			"desc": "分销关系"
+		},
+		{
+			"table": "bwoil_operation_promotion_report",
+			"step": "bwoilOperationPromotionReportMigrationStep",
+			"desc": "分销报表"
+		},
+		{
+			"table": "bwoil_operation_promotion_share",
+			"step": "bwoilOperationPromotionShareMigrationStep",
+			"desc": "邀请好友佣金"
+		}
+	]
+}

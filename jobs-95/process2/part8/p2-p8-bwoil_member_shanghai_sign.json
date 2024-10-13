@@ -1,0 +1,11 @@
+{
+	"jobName": "p2-p8-bwoil_member_shanghai_sign",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_member_shanghai_sign",
+			"step": "bwoilMemberShanghaiSignMigrationStep",
+			"desc": "上海银行开户信息"
+		}
+	]
+}

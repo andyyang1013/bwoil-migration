@@ -1,0 +1,11 @@
+{
+  "jobName": "p8-p4-p5-bwoil_operation_gasstation_remittance_log",
+  "jobType": "sequential",
+  "steps": [
+    {
+      "table": "bwoil_operation_gasstation_remittance_log",
+      "step": "bwoilOperationGasstationRemittanceLogStep",
+      "desc": "加油站打款回调日志表"
+    }
+  ]
+}

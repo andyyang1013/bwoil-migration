@@ -1,0 +1,11 @@
+{
+	"jobName": "p8-p2-bwoil_operation_feedback",
+	"jobType": "simple",
+	"steps": [
+		{
+			"table": "bwoil_operation_feedback",
+			"step": "bwoilOperationFeedbackMigrationStep",
+			"desc": "反馈"
+		}
+	]
+}

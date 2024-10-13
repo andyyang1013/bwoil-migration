@@ -1,0 +1,11 @@
+{
+	"jobName": "p6-p9-bwoil_operation_oilbox",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_operation_oilbox",
+			"step": "bwoilOperationOilboxMigrationStep",
+			"desc": "用户油箱"
+		}
+	]
+}

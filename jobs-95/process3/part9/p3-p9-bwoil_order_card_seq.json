@@ -1,0 +1,12 @@
+{
+	"jobName": "p3-p9-bwoil_order_card_seq",
+	"jobType": "simple",
+	"steps": 
+	[
+		{
+			"table": "bwoil_order_card_seq",
+			"step": "bwoilOrderCardSeqMigrationStep",
+			"desc": "卡序列表"
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+  "jobName": "p8-p4-p2-bwoil_operation_gasstation_images",
+  "jobType": "sequential",
+  "steps": [
+    {
+      "table": "bwoil_operation_gasstation_images",
+      "step": "bwoilOperationGasstationImagesStep",
+      "desc": "加油站的图片表"
+    }
+  ]
+}

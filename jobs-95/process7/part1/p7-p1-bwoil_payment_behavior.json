@@ -1,0 +1,11 @@
+{
+	"jobName": "p7-p1-bwoil_payment_behavior",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_payment_behavior",
+			"step": "bwoilPayBehaviorMigrationStep",
+			"desc": "支付行为记录"
+		}
+	]
+}

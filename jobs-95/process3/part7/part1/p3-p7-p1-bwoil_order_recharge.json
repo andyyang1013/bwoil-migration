@@ -1,0 +1,12 @@
+{
+	"jobName": "p3-p7-p1-bwoil_order_recharge",
+	"jobType": "simple",
+	"steps": 
+	[
+		{
+			"table": "bwoil_order_recharge",
+			"step": "bwoilOrderRechargeMigrationStep",
+			"desc": "充值"
+		}
+	]
+}

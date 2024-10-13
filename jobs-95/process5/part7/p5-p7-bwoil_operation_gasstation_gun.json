@@ -1,0 +1,11 @@
+{
+	"jobName": "p5-p7-bwoil_operation_gasstation_gun",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_operation_gasstation_gun",
+			"step": "bwoilOperationGasstationGunMigrationStep",
+			"desc": "油枪"
+		}
+	]
+}

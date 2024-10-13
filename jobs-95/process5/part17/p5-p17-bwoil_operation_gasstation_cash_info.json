@@ -1,0 +1,11 @@
+{
+	"jobName": "p5-p17-bwoil_operation_gasstation_cash_info",
+	"jobType": "sequential",
+	"steps": [
+		{
+			"table": "bwoil_operation_gasstation_cash_info",
+			"step": "bwoilOperationGasstationCashInfoMigrationStep",
+			"desc": "加油扣款"
+		}
+	]
+}
